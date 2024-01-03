@@ -13,6 +13,7 @@ adata_input, training_dir, condition_key = argv[1:]
 # adata_input, training_dir, condition_key = ['adata_train_gmt.h5ad', 'model_train', 'Tissue_Source']
 
 adata = sc.read(adata_input)
+adata.obs['batch'] = adata.obs[condition_key]
 
 # model train
 early_stopping_kwargs = {
