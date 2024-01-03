@@ -33,6 +33,8 @@ for file in files:
 
 ######### load data
 adata = sc.read(adata_input)
+adata.X = adata.X.astype('int32')
+adata.layers["counts"] = adata.X
 I = sc.read(cmap_file_output)
 
 geneuse = adata.var_names.intersection(I.var_names)
