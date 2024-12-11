@@ -1,4 +1,4 @@
 # Shennong
 A deep-learning framework to predict the tumor-associated cells' reaction to pharmacologic perturbations at the single-cell level.
 
-<a><img src="https://bis.zju.edu.cn/shennong/assets/img/Figure4-pipeline.png"></a>
+<a><img src="https://bis.zju.edu.cn/shennong/assets/img/pipeline.png"></a>
