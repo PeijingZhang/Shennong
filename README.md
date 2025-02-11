@@ -24,19 +24,19 @@ The scripts `command_example.sh` or `example.ipynb` shows how to predict individ
 #### Data required
 - <b>scRNA data</b>
 - <b>Perturbation data</b>  
-<a href="http://bis.zju.edu.cn/shennong/data/perturbation.gmt" target="_blank">perturbation.gmt</a> <a href="http://bis.zju.edu.cn/shennong/data/perturbation.gmt.h5ad" target="_blank">perturbation.gmt.h5ad</a> (High-confidence signatures of CMap with already preproceessed)
+<a href="http://bis.zju.edu.cn/shennong/data/perturbation.gmt" target="_blank">perturbation.gmt</a> <a href="http://bis.zju.edu.cn/shennong/data/perturbation.gmt.h5ad" target="_blank">perturbation.gmt.h5ad</a> (high-confidence signatures of CMap with already preproceessed)
 #### Pipeline
-##### 1 Load train data and do preprocessing
+##### 1. Load train data and do preprocessing
 ```
 python ../script/preprocess.py adata_train.h5ad ../data/perturbation_test.gmt ../data/perturbation_test.gmt.h5ad adata_train_gmt.h5ad
 ```  
 The processed data would be saved in `adata_train_gmt.h5ad`.
-##### 2 Create model and training
+##### 2. Create model and training
 ```
 python ../script/train.py adata_train_gmt.h5ad model_train Tissue_Source
 ```  
 The trained model would be saved in the `model_train/` directory. Tissue_Source is the value of <b>batch_key</b>.
-##### 3 Load query data for prediction mapping & Initlizling the model for prediction training
+##### 3. Load query data for prediction mapping & Initlizling the model for prediction training
 ```
 python ../script/predict.py adata_train_gmt.h5ad model_train adata_predict.h5ad adata_predict_gmt.h5ad model_predict
 ```  
