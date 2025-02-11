@@ -42,4 +42,4 @@ python ../script/predict.py adata_train_gmt.h5ad model_train adata_predict.h5ad 
 ```  
 The predicted model would be saved in the `model_predict/` directory.
 #### Visualization
-The relevant code could be found in `example.ipynb` and the `code_scRNA/Application of framework/` directory of <a href="https://figshare.com/s/ac34f719115943d1d46c" target="_blank">figshare</a>, including plotting the latent space of the dataset and the influence term score for each cell.
+The relevant code could be found in `example/example.ipynb` and the `Application of framework/` directory, including plotting the latent space of the dataset and the influence term score for each cell.
