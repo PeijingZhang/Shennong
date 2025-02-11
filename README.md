@@ -7,7 +7,7 @@ A deep learning framework for <i>in silico</i> screening of anticancer drugs at 
 
 <p>The training and prediction results could be obtained and queried on our website (<a href="http://bis.zju.edu.cn/shennong/index.html" target="_blank">http://bis.zju.edu.cn/shennong/index.html</a>).</p>
 
-<p>Citation: Peijing Zhang†, Xueyi Wang†, Xufeng Cen†, Qi Zhang†, Yuting Fu, Yuqing Mei, Xinru Wang, Renying Wang, Jingjing Wang, Hongwei Ouyang, Tingbo Liang*, Hongguang Xia*, Xiaoping Han*, and Guoji Guo*. <b>A deep learning framework for in silico screening of anticancer drugs at the single-cell level</b>. <b><i>National Science Review</i></b>, 2024, 12(2):nwae451. DOI: <a href="https://doi.org/10.1093/nsr/nwae451" target="_blank">https://doi.org/10.1093/nsr/nwae451</a>.</p>
+<p>Citation: Peijing Zhang†, Xueyi Wang†, Xufeng Cen†, Qi Zhang†, Yuting Fu, Yuqing Mei, Xinru Wang, Renying Wang, Jingjing Wang, Hongwei Ouyang, Tingbo Liang*, Hongguang Xia*, Xiaoping Han*, and Guoji Guo*. <b>A deep learning framework for in silico screening of anticancer drugs at the single-cell level</b>. <b><i>National Science Review</i></b>, 2025, 12(2):nwae451. DOI: <a href="https://doi.org/10.1093/nsr/nwae451" target="_blank">https://doi.org/10.1093/nsr/nwae451</a>.</p>
 
 ## Requirements
 Python packages  
